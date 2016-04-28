@@ -1,0 +1,26 @@
+body {
+  background-image: url("../images/clouds.jpg");
+}
+h1 {
+  font-size: 45px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  line-height: 105%;
+  color: black;
+  width: 70%;
+  padding-top: 14 px;
+  margin-left: 11%;
+}
+.book {
+  width: 20%;
+  margin-left: 4%;
+  margin-top: 1%;
+  float: left;
+}
+.book .book-image,
+.book .book-title {
+  width: 100%;
+}
+.balloons img {
+  width: 100%;
+}
