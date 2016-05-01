@@ -1,6 +1,7 @@
 body {
   background-image: url("../images/clouds.jpg");
 }
+/* Section 1 begins:  header; book; book-title; synopsis */
 h1 {
   font-size: 45px;
   font-family: 'Oswald', sans-serif;
@@ -29,32 +30,34 @@ h1 {
 .book-title {
   margin-top: 5%;
 }
-h2 {
-  font-size: 26px;
+.synopsis h2 {
+  font-size: 30px;
+  font-weight: 400;
   font-family: 'Oswald', sans-serif;
 }
-p {
+.synopsis p {
   font-weight: 300;
   font-family: 'Oswald', sans-serif;
-  font-size: 18px;
+  color: #404040;
+  line-height: 130%;
+  font-size: 19px;
 }
 .synopsis {
   width: 44%;
   line-height: 135%;
   padding: 2%;
   padding-top: 0%;
-  padding-right: 1%;
+  padding-right: 2%;
   padding-bottom: 1%;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 1%;
   float: left;
   font-family: 'Oswald', sans-serif;
   background-color: #7bebd8;
 }
+/* Section 2 begins:  bio; bill-photo; kirkus; recliner */
 .author {
   margin-top: 44%;
   background-color: #fcb5bc;
+  width: 60%;
   min-width: 100px;
   max-width: 400px;
   max-height: 230px;
@@ -79,6 +82,80 @@ p {
   margin-top: -58%;
   margin-left: -3%;
 }
+.kirkus {
+  float: left;
+  margin-top: 5%;
+  background-color: #ebffd5;
+  min-width: 100px;
+  max-width: 400px;
+  max-height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  background: ;
+  padding: 2em 4em;
+}
+.recliner {
+  position: absolute;
+  width: 18%;
+  bottom: -28%;
+  z-index: 100;
+}
+/* Section 3 begins:  ballons; amazon reviews */
+.amazon-balloons {
+  width: 100%;
+}
+.balloons {
+  float: right;
+}
 .balloons img {
   width: 100%;
+}
+.quotes {
+  background-color: #2b4595;
+  width: 14%;
+  float: right;
+}
+.quotes h4 {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding: 4%;
+  line-height: 110%;
+  margin-top: 11%;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.quotes p {
+  color: white;
+  padding: 8%;
+  margin-left: 2%;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 15px;
+}
+/* Section 4 begins:  email bar */
+.email {
+  display: block;
+  width: 55%;
+  background-color: #2b4595;
+  float: left;
+}
+h5 {
+  font-size: 18px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 6px;
+  text-align: right;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  margin-right: 4%;
+}
+h5.bold {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-align: right;
 }
