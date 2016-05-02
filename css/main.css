@@ -44,6 +44,7 @@ h1 {
 }
 .synopsis {
   margin-top: 44%;
+  background-color: #7bebd8;
   width: 80%;
   min-width: 100px;
   max-width: 600px;
@@ -53,34 +54,35 @@ h1 {
   padding: 2em 4em;
   float: left;
   font-family: 'Oswald', sans-serif;
-  background-color: #7bebd8;
 }
 /* Section 2 begins:  bio; bill-photo; kirkus; recliner */
 .author {
   margin-top: 44%;
   background-color: #fcb5bc;
-  width: 60%;
-  min-width: 100px;
-  max-width: 400px;
+  width: 75%;
+  min-width: 200px;
+  max-width: 500px;
   max-height: 230px;
   text-align: center;
   border-radius: 50%;
   padding: 2em 4em;
+  float: left;
 }
-h3 {
+.author h3 {
   font-size: 22px;
   font-family: 'Oswald', sans-serif;
-  margin-top: -5%;
+  font-weight: 400;
+  margin-top: -4%;
 }
-p {
+.author p {
   font-weight: 300;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
 }
 .bill-photo {
   float: left;
-  width: 30%;
-  margin-top: -58%;
+  width: 20%;
+  margin-top: -32%;
   margin-left: -3%;
 }
 .kirkus {
@@ -95,11 +97,22 @@ p {
   background: ;
   padding: 2em 4em;
 }
+.kirkus h3 {
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-top: -4%;
+}
+.kirkus p {
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
 .recliner {
-  position: absolute;
-  width: 18%;
-  bottom: -28%;
+  width: 50%;
   z-index: 100;
+  margin-top: -10%;
+  margin-left: 38%;
 }
 /* Section 3 begins:  ballons; amazon reviews */
 .amazon-balloons {
@@ -121,24 +134,24 @@ p {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   padding: 4%;
-  line-height: 110%;
+  line-height: 115%;
   margin-top: 11%;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 .quotes p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
   color: white;
   padding: 8%;
   margin-left: 2%;
   letter-spacing: 1px;
-  font-weight: 300;
-  font-size: 15px;
 }
 /* Section 4 begins:  email bar */
 .email {
   display: block;
-  position: relative;
   width: 55%;
   background-color: #2b4595;
   text-align: right;
