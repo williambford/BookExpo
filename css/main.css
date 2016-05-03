@@ -35,6 +35,7 @@ h1 {
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
   margin-top: 2%;
+  margin-bottom: -3%;
 }
 .synopsis p {
   font-size: 18px;
@@ -70,15 +71,17 @@ h1 {
   float: left;
 }
 .author h3 {
-  font-size: 22px;
+  font-size: 25px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   margin-top: -4%;
+  margin-bottom: -1%;
 }
 .author p {
   font-weight: 300;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
+  color: #404040;
 }
 .bill-photo {
   float: left;
@@ -95,14 +98,14 @@ h1 {
   max-height: 150px;
   text-align: center;
   border-radius: 50%;
-  background: ;
   padding: 2em 4em;
 }
 .kirkus h3 {
-  font-size: 22px;
+  font-size: 25px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   margin-top: -5%;
+  margin-bottom: -2%;
 }
 .kirkus p {
   font-weight: 300;
@@ -140,6 +143,7 @@ h1 {
   color: white;
   font-weight: 400;
   letter-spacing: 2px;
+  margin-bottom: -3%;
 }
 .quotes p {
   font-family: 'Oswald', sans-serif;
