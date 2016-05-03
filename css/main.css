@@ -34,6 +34,7 @@ h1 {
   font-size: 27px;
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
+  margin-top: 2%;
 }
 .synopsis p {
   font-size: 18px;
@@ -101,7 +102,7 @@ h1 {
   font-size: 22px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  margin-top: -4%;
+  margin-top: -5%;
 }
 .kirkus p {
   font-weight: 300;
