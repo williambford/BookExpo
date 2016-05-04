@@ -22,7 +22,7 @@ h1 {
   letter-spacing: .5px;
   width: 70%;
   padding-top: 14 px;
-  margin-left: 9%;
+  margin-left: 8%;
 }
 
 .book {
@@ -43,6 +43,8 @@ h1 {
 
   .book-title {
     margin-top: 1%;
+    width: 95%;
+    margin-left: 3%;
   }
 
   .synopsis h2 {
@@ -73,9 +75,9 @@ h1 {
     text-align: center;
     border-radius: 50%;
     padding: 2.5em 4em;
-    float: left;
     font-family: 'Oswald', sans-serif;
   }
+
 
 
 /* Section 2 begins:  bio; bill-photo; kirkus; recliner */
@@ -90,7 +92,6 @@ h1 {
   text-align: center;
   border-radius: 50%;
   padding: 3em 4em;
-  float: left;
 
   h3 {
     font-size: 26px;
@@ -123,7 +124,6 @@ h1 {
 }
 
 .kirkus {
-  float: left;
   margin-top: 5%;
   background-color: rgb(235,255,213);
   min-width: 200px;
@@ -163,16 +163,18 @@ h1 {
   }
 
   .balloons {
-    img { width: 100%; }
-    float: right;
-    margin-top: 10%;
+
+    img {
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      }
+
   }
 
   .quotes {
     background-color: rgb(43,69,149);
-    width: 14%;
-    float: right;
-    margin-top: 10%;
+
   }
 
   .quotes h4 {
@@ -193,7 +195,7 @@ h1 {
     font-size: 15px;
     font-weight: 300;
     color: white;
-    padding: 8%;
+    padding: 1em;
     margin-left: 2%;
     letter-spacing: 1px;
   }
@@ -251,6 +253,19 @@ h1 {
 
     .email {
       display: inline-block;
+    }
+  }
+
+  .amazon-balloons {
+    .balloons {
+      float: right;
+      margin-top: 10%;
+    }
+
+    .quotes {
+      width: 14%;
+      float: right;
+      margin-top: 10%;
     }
   }
 }
