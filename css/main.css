@@ -156,7 +156,7 @@ h1 {
   letter-spacing: 1px;
 }
 /* Section 4 begins:  email bar */
-.email {
+.contact {
   display: block;
   width: 55%;
   background-color: #2b4595;
@@ -182,6 +182,10 @@ h6 {
   letter-spacing: 1.5px;
   display: inline-block;
   vertical-align: middle;
+}
+.email {
+  display: inline-block;
+  white-space: nowrap;
 }
 .icon {
   width: 43px;
