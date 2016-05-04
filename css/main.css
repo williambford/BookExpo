@@ -92,7 +92,7 @@ h1 {
   font-size: 16px;
   color: #404040;
 }
-.bill-photo {
+.author .bill-photo {
   float: left;
   width: 20%;
   margin-top: -32%;
@@ -121,7 +121,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
 }
-.recliner {
+.kirkus .recliner {
   width: 50%;
   z-index: 100;
   margin-top: -10%;
