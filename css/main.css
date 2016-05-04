@@ -124,6 +124,7 @@ h1 {
 }
 .balloons {
   float: right;
+  margin-top: 10%;
 }
 .balloons img {
   width: 100%;
@@ -132,6 +133,7 @@ h1 {
   background-color: #2b4595;
   width: 14%;
   float: right;
+  margin-top: 10%;
 }
 .quotes h4 {
   font-size: 20px;
