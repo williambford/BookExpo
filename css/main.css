@@ -60,7 +60,7 @@ h1 {
   background-color: #7bebd8;
   width: 80%;
   min-width: 100px;
-  max-width: 650px;
+  max-width: 750px;
   text-align: center;
   border-radius: 50%;
   padding: 2.5em 4em;
@@ -73,7 +73,7 @@ h1 {
   background-color: #fcb5bc;
   width: 75%;
   min-width: 200px;
-  max-width: 500px;
+  max-width: 575px;
   text-align: center;
   border-radius: 50%;
   padding: 3em 4em;
@@ -102,9 +102,9 @@ h1 {
   float: left;
   margin-top: 5%;
   background-color: #ebffd5;
-  min-width: 100px;
-  max-width: 400px;
-  max-height: 150px;
+  min-width: 200px;
+  max-width: 500px;
+  max-height: 220px;
   text-align: center;
   border-radius: 50%;
   padding: 2em 4em;
@@ -125,7 +125,7 @@ h1 {
   width: 50%;
   z-index: 100;
   margin-top: -10%;
-  margin-left: 38%;
+  margin-left: 47%;
 }
 /* Section 3 begins:  ballons; amazon reviews */
 .amazon-balloons {
@@ -173,7 +173,7 @@ h1 {
   text-align: center;
   display: inline;
   float: left;
-  margin-top: 2%;
+  margin-top: 10%;
   padding: 0.5em;
 }
 .contact h5 {
@@ -207,7 +207,7 @@ h1 {
 }
 @media screen and (min-width: 768px) {
   .contact {
-    width: 55%;
+    width: 54%;
   }
   .contact .email {
     display: inline-block;
