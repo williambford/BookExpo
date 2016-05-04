@@ -61,6 +61,7 @@ h1 {
   width: 80%;
   min-width: 100px;
   max-width: 750px;
+  max-height: 500px;
   text-align: center;
   border-radius: 50%;
   padding: 2.5em 4em;
@@ -73,7 +74,8 @@ h1 {
   background-color: #fcb5bc;
   width: 75%;
   min-width: 200px;
-  max-width: 575px;
+  max-width: 622px;
+  max-height: 370px;
   text-align: center;
   border-radius: 50%;
   padding: 3em 4em;
@@ -94,14 +96,15 @@ h1 {
 }
 .author .spacer {
   width: 0;
-  height: 6em;
+  height: 4em;
   float: left;
 }
 .author .bill-photo {
   float: left;
   clear: left;
-  width: 20%;
-  margin: 0.5em 1em 0.5em 0;
+  width: 24%;
+  margin: 0em 1em 0.5em 0;
+  margin-top: -0.05%;
 }
 .kirkus {
   float: left;
@@ -129,8 +132,8 @@ h1 {
 .kirkus .recliner {
   width: 50%;
   z-index: 100;
-  margin-top: -10%;
-  margin-left: 38%;
+  margin-top: -9%;
+  margin-left: 50%;
 }
 /* Section 3 begins:  ballons; amazon reviews */
 .amazon-balloons {
