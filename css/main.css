@@ -1,5 +1,15 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
   background-image: url("../images/clouds.jpg");
+  margin: 0;
 }
 /* Section 1 begins:  header; book; book-title; synopsis */
 h1 {
@@ -156,16 +166,18 @@ h1 {
   letter-spacing: 1px;
 }
 /* Section 4 begins:  email bar */
-.email {
+.contact {
   display: block;
-  width: 55%;
+  width: 100%;
   background-color: #2b4595;
   text-align: center;
   display: inline;
   float: left;
   margin-top: 2%;
+  padding: 0.5em;
 }
-h5 {
+.contact h5 {
+  margin: 0;
   font-size: 19px;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -174,7 +186,8 @@ h5 {
   display: inline-block;
   vertical-align: middle;
 }
-h6 {
+.contact h6 {
+  margin: 0;
   font-size: 19px;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -183,8 +196,20 @@ h6 {
   display: inline-block;
   vertical-align: middle;
 }
-.icon {
+.contact .email {
+  display: block;
+  white-space: nowrap;
+}
+.contact .icon {
   width: 43px;
   margin: 0 4px;
   vertical-align: middle;
+}
+@media screen and (min-width: 768px) {
+  .contact {
+    width: 55%;
+  }
+  .contact .email {
+    display: inline-block;
+  }
 }
