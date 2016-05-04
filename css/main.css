@@ -34,7 +34,7 @@ h1 {
   font-size: 27px;
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: -3%;
 }
 .synopsis p {
@@ -43,6 +43,7 @@ h1 {
   font-weight: 300;
   color: #404040;
   line-height: 120%;
+  margin-top: 20px;
 }
 .synopsis {
   margin-top: 44%;
@@ -103,7 +104,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   margin-top: -5%;
-  margin-bottom: -2%;
+  margin-bottom: -1%;
 }
 .kirkus p {
   font-weight: 300;
@@ -162,8 +163,6 @@ h1 {
   text-align: center;
   display: inline;
   float: left;
-  paddingtop: 1px;
-  paddingbottom: 3px;
   margin-top: 2%;
 }
 h5 {
