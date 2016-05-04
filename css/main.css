@@ -165,7 +165,7 @@ h1 {
   float: left;
   margin-top: 2%;
 }
-h5 {
+.contact h5 {
   font-size: 19px;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -174,7 +174,7 @@ h5 {
   display: inline-block;
   vertical-align: middle;
 }
-h6 {
+.contact h6 {
   font-size: 19px;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -183,11 +183,11 @@ h6 {
   display: inline-block;
   vertical-align: middle;
 }
-.email {
+.contact .email {
   display: inline-block;
   white-space: nowrap;
 }
-.icon {
+.contact .icon {
   width: 43px;
   margin: 0 4px;
   vertical-align: middle;
