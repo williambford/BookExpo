@@ -209,4 +209,7 @@ h1 {
   .contact {
     width: 55%;
   }
+  .contact .email {
+    display: inline-block;
+  }
 }
