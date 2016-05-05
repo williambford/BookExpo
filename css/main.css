@@ -117,6 +117,7 @@ h1 {
   text-align: center;
   border-radius: 50%;
   padding: 2em 4em;
+  position: relative;
 }
 .kirkus h3 {
   font-size: 25px;
@@ -132,9 +133,12 @@ h1 {
 }
 .kirkus .recliner {
   width: 50%;
+  margin-bottom: -18%;
+  margin-right: 2%;
   z-index: 100;
-  margin-top: -9%;
-  margin-left: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 /* Section 3 begins:  ballons; amazon reviews */
 .amazon-balloons {
@@ -144,7 +148,7 @@ h1 {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .quotes {
   background-color: #2b4595;
@@ -167,8 +171,18 @@ h1 {
   font-weight: 300;
   color: white;
   padding: 1em;
+  margin: 0;
   margin-left: 2%;
   letter-spacing: 1px;
+}
+.quotes p.attribution {
+  padding-top: 0;
+  margin-top: -0.75em;
+  text-align: right;
+  font-style: italic;
+}
+.quotes p.attribution.availability {
+  text-align: center;
 }
 /* Section 4 begins:  email bar */
 .contact {
