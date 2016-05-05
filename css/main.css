@@ -7,6 +7,11 @@ html {
 *:after {
   box-sizing: inherit;
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 body {
   background-image: url("../images/clouds.jpg");
   margin: 0;
@@ -43,14 +48,14 @@ h1 {
   margin-left: 3%;
 }
 .synopsis h2 {
-  font-size: 27px;
+  font-size: 1.7em;
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
   margin-top: 1%;
   margin-bottom: -3%;
 }
 .synopsis p {
-  font-size: 18px;
+  font-size: 1.1em;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color: #404040;
@@ -181,8 +186,9 @@ h1 {
   text-align: right;
   font-style: italic;
 }
-.quotes p.attribution.availability {
+.quotes p.availability {
   text-align: center;
+  font-style: italic;
 }
 /* Section 4 begins:  email bar */
 .contact {
@@ -225,19 +231,67 @@ h1 {
   vertical-align: middle;
 }
 @media screen and (min-width: 768px) {
-  .contact {
-    width: 54%;
+  .opening-section {
+    width: 100%;
+  }
+  .opening-section h1 {
+    width: 56%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .opening-section .book {
+    width: 24%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    float: left;
+    text-align: center;
+  }
+  .opening-section .book img {
+    max-width: 225px;
+  }
+  .opening-section .synopsis {
+    width: 61%;
+    margin-right: 5%;
+    float: left;
+    font-size: 0.9em;
+    margin-top: 7%;
+  }
+  .opening-section .synopsis span {
+    display: block;
+  }
+  .bio-kirkus .author {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -2%;
+    float: left;
+  }
+  .bio-kirkus .kirkus {
+    width: 35%;
+    margin-right: 5%;
+    margin-top: 3%;
+    float: left;
+  }
+  .amazon-balloons {
+    width: 66%;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .amazon-balloons .balloons {
+    margin-top: -5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .amazon-balloons .balloons img {
+    width: 100%;
+    margin: 0;
+  }
+  .amazon-balloons .quotes {
+    margin-top: 10%;
   }
   .contact .email {
     display: inline-block;
-  }
-  .amazon-balloons .balloons {
-    float: right;
-    margin-top: 10%;
-  }
-  .amazon-balloons .quotes {
-    width: 14%;
-    float: right;
-    margin-top: 10%;
   }
 }
