@@ -191,6 +191,10 @@ h1 {
   text-align: center;
   font-style: italic;
 }
+.quotes p .award img {
+  width: 30%;
+  margin-top: 12%;
+}
 /* Section 4 begins:  email bar */
 .contact {
   display: block;
