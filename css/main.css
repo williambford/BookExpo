@@ -76,7 +76,7 @@ body {
   line-height: 122%;
 }
 .opening-section .synopsis p {
-  font-size: 0.9em;
+  font-size: .9em;
   font-family: arial, sans-serif;
   font-weight: 300;
   color: #404040;
@@ -110,8 +110,8 @@ body {
 }
 .author p {
   font-weight: 300;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
   color: #404040;
 }
 .author .spacer {
@@ -147,8 +147,8 @@ body {
 }
 .kirkus p {
   font-weight: 300;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
 }
 .kirkus .recliner {
   width: 50%;
@@ -281,8 +281,8 @@ body {
     padding: 2.5em 4em;
   }
   .opening-section .synopsis p {
-    font-size: 1.1em;
     font-family: 'Oswald', sans-serif;
+    font-size: 16px;
   }
   .opening-section .synopsis .ipad-break {
     display: block;
@@ -296,11 +296,19 @@ body {
     padding: 3em 4em;
     float: left;
   }
+  .bio-kirkus p {
+    font-family: arial, sans-serif;
+    font-size: 17px;
+  }
   .bio-kirkus .kirkus {
     width: 35%;
     margin-right: 5%;
     margin-top: 3%;
     float: left;
+  }
+  .bio-kirkus p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
   }
   .amazon-balloons {
     width: 66%;
@@ -336,6 +344,10 @@ body {
   }
   .opening-section .synopsis {
     position: relative;
+  }
+  .opening-section .synopsis p {
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
   }
   .opening-section .synopsis .award {
     display: block;
