@@ -177,6 +177,7 @@ body {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   padding: 4%;
+  padding-top: 5%;
   line-height: 115%;
   margin-top: 11%;
   color: white;
@@ -203,6 +204,7 @@ body {
 .amazon-balloons .quotes p.availability {
   text-align: center;
   font-style: italic;
+  padding-bottom: 6%;
 }
 .amazon-balloons .award {
   text-align: center;
@@ -386,7 +388,9 @@ body {
     margin-left: -20%;
   }
   .amazon-balloons .quotes {
-    margin-top: 40%;
+    margin-top: 30%;
+    padding: 4px;
+    padding-bottom: 15px;
   }
   .amazon-balloons .award {
     display: none;
