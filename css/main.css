@@ -320,10 +320,10 @@ body {
     margin-top: 10%;
   }
   .amazon-balloons .balloons {
-    margin-top: -10%;
+    margin-top: -12%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -1%;
   }
   .amazon-balloons .balloons img {
     width: 100%;
@@ -362,7 +362,7 @@ body {
   }
   .opening-section .synopsis p {
     font-family: 'oswald', sans-serif;
-    font-size: 16px;
+    font-size: 16.5px;
   }
   .opening-section .synopsis .award {
     display: block;
