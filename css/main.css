@@ -367,8 +367,8 @@ body {
   .opening-section .synopsis .award {
     display: block;
     position: absolute;
-    right: -1px;
-    bottom: -40px;
+    right: -80px;
+    bottom: -70px;
     width: 200px;
   }
   .opening-section .synopsis .award img {
