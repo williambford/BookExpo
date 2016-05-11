@@ -111,7 +111,7 @@ body {
 .author p {
   font-weight: 300;
   font-family: arial, sans-serif;
-  font-size: 15px;
+  font-size: 14.5px;
   color: #404040;
 }
 .author .spacer {
@@ -186,7 +186,7 @@ body {
 }
 .amazon-balloons .quotes p {
   font-family: 'Oswald', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   color: white;
   padding: 1em;
@@ -206,11 +206,13 @@ body {
 }
 .amazon-balloons .award {
   text-align: center;
+  margin-top: -2%;
 }
 .amazon-balloons .award img {
   width: 80%;
   max-width: 400px;
   margin-top: 12%;
+  margin-bottom: -9%;
 }
 /* Section 4 begins:  email bar */
 .contact {
@@ -225,7 +227,7 @@ body {
 }
 .contact h5 {
   margin: 0;
-  font-size: 19px;
+  font-size: 15px;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -235,7 +237,7 @@ body {
 }
 .contact h6 {
   margin: 0;
-  font-size: 19px;
+  font-size: 14px;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -327,6 +329,16 @@ body {
   }
   .amazon-balloons .quotes {
     margin-top: 10%;
+  }
+  .amazon-balloons p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+  }
+  .contact h5 {
+    font-size: 19px;
+  }
+  .contact h6 {
+    font-size: 19px;
   }
   .contact .email {
     display: inline-block;
