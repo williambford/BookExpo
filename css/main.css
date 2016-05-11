@@ -256,7 +256,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .opening-section h1 {
-    font-size: 45px;
+    font-size: 40px;
     width: 95%;
     margin-left: 5%;
     margin-right: 0;
@@ -352,6 +352,7 @@ body {
     clear: none;
   }
   .opening-section h1 {
+    font-size: 45px;
     padding-right: 0;
   }
   .opening-section .synopsis {
@@ -376,7 +377,7 @@ body {
     margin-top: 0;
     position: absolute;
     top: 0;
-    right: 4%;
+    right: 6%;
   }
   .amazon-balloons .balloons {
     position: relative;
@@ -385,7 +386,7 @@ body {
     margin-left: -20%;
   }
   .amazon-balloons .quotes {
-    margin-top: 20%;
+    margin-top: 40%;
   }
   .amazon-balloons .award {
     display: none;
