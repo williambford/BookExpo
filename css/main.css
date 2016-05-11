@@ -297,7 +297,7 @@ body {
     margin-right: 5%;
     margin-top: -2%;
     border-radius: 50%;
-    padding: 3em 4em;
+    padding: 3em 5em;
     float: left;
   }
   .bio-kirkus p {
@@ -373,6 +373,9 @@ body {
   }
   .opening-section .synopsis .award img {
     width: 100%;
+  }
+  .bio-kirkus .author {
+    padding: 3em 5em;
   }
   .amazon-balloons {
     width: 15%;
