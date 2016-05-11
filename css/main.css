@@ -12,13 +12,24 @@ html {
   display: table;
   clear: both;
 }
+.nowrap {
+  white-space: nowrap;
+}
 body {
   background-image: url("../images/clouds2.jpg");
   margin: 0;
 }
+.page-container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 /* Section 1 begins:  header; book; book-title; synopsis */
-h1 {
-  font-size: 45px;
+.opening-section {
+  width: 100%;
+}
+.opening-section h1 {
+  font-size: 27px;
   font-family: 'Oswald', sans-serif;
   color: navy;
   font-weight: 400;
@@ -26,44 +37,27 @@ h1 {
   line-height: 112%;
   letter-spacing: .5px;
   width: 90%;
-  padding-top: 14 px;
   margin: 0 auto;
   margin-top: 5%;
 }
-.book {
+.opening-section .book {
   width: 40%;
   margin: 0 auto;
 }
-.book-cover,
-.book-title {
+.opening-section .book .book-cover,
+.opening-section .book .book-title {
   width: 100%;
   margin-top: 24%;
 }
-.book-cover {
+.opening-section .book .book-cover {
   width: 98%;
 }
-.book-title {
+.opening-section .book .book-title {
   margin-top: 1%;
   width: 95%;
   margin-left: 3%;
 }
-.synopsis h2 {
-  font-size: 1.7em;
-  font-weight: 400;
-  font-family: 'Oswald', sans-serif;
-  margin-top: 0%;
-  margin-bottom: -3%;
-  line-height: 122%;
-}
-.synopsis p {
-  font-size: 1.1em;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-  color: #404040;
-  line-height: 120%;
-  margin-top: 20px;
-}
-.synopsis {
+.opening-section .synopsis {
   margin: 0 auto;
   margin-top: 10%;
   background-color: #7bebd8;
@@ -71,9 +65,29 @@ h1 {
   min-width: 120px;
   max-width: 775px;
   text-align: center;
-  border-radius: 50%;
-  padding: 2.5em 4em;
+  padding: 5% 10%;
+}
+.opening-section .synopsis h2 {
+  font-size: 1.7em;
+  font-weight: 400;
   font-family: 'Oswald', sans-serif;
+  margin-top: 0%;
+  margin-bottom: -3%;
+  line-height: 122%;
+}
+.opening-section .synopsis p {
+  font-size: 0.9em;
+  font-family: arial, sans-serif;
+  font-weight: 300;
+  color: #404040;
+  line-height: 120%;
+  margin-top: 20px;
+}
+.opening-section .synopsis .ipad-break {
+  display: inline;
+}
+.opening-section .synopsis .award {
+  display: none;
 }
 /* Section 2 begins:  bio; bill-photo; kirkus; recliner */
 .author {
@@ -81,12 +95,11 @@ h1 {
   background-color: #fcb5bc;
   margin: 0 auto;
   margin-top: 10%;
-  width: 75%;
+  width: 100%;
   min-width: 200px;
   max-width: 600px;
   text-align: center;
-  border-radius: 50%;
-  padding: 3em 4em;
+  padding: 3em 2em;
 }
 .author h3 {
   font-size: 26px;
@@ -150,16 +163,16 @@ h1 {
 .amazon-balloons {
   width: 100%;
 }
-.balloons img {
+.amazon-balloons .balloons img {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 24%;
 }
-.quotes {
+.amazon-balloons .quotes {
   background-color: #2b4595;
 }
-.quotes h4 {
+.amazon-balloons .quotes h4 {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -171,7 +184,7 @@ h1 {
   letter-spacing: 2px;
   margin-bottom: -3%;
 }
-.quotes p {
+.amazon-balloons .quotes p {
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -181,18 +194,22 @@ h1 {
   margin-left: 2%;
   letter-spacing: 1px;
 }
-.quotes p.attribution {
+.amazon-balloons .quotes p.attribution {
   padding-top: 0;
   margin-top: -0.75em;
   text-align: right;
   font-style: italic;
 }
-.quotes p.availability {
+.amazon-balloons .quotes p.availability {
   text-align: center;
   font-style: italic;
 }
-.quotes p .award img {
-  width: 30%;
+.amazon-balloons .award {
+  text-align: center;
+}
+.amazon-balloons .award img {
+  width: 80%;
+  max-width: 400px;
   margin-top: 12%;
 }
 /* Section 4 begins:  email bar */
@@ -236,13 +253,12 @@ h1 {
   vertical-align: middle;
 }
 @media screen and (min-width: 768px) {
-  .opening-section {
-    width: 100%;
-  }
   .opening-section h1 {
-    width: 56%;
+    font-size: 45px;
+    width: 95%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 0;
+    padding-right: 260px;
   }
   .opening-section .book {
     width: 24%;
@@ -261,8 +277,14 @@ h1 {
     float: left;
     font-size: 0.9em;
     margin-top: 7%;
+    border-radius: 50%;
+    padding: 2.5em 4em;
   }
-  .opening-section .synopsis span {
+  .opening-section .synopsis p {
+    font-size: 1.1em;
+    font-family: 'Oswald', sans-serif;
+  }
+  .opening-section .synopsis .ipad-break {
     display: block;
   }
   .bio-kirkus .author {
@@ -270,6 +292,8 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: -2%;
+    border-radius: 50%;
+    padding: 3em 4em;
     float: left;
   }
   .bio-kirkus .kirkus {
@@ -284,7 +308,7 @@ h1 {
     margin-top: 10%;
   }
   .amazon-balloons .balloons {
-    margin-top: -5%;
+    margin-top: -10%;
     position: absolute;
     top: 0;
     right: 0;
@@ -298,5 +322,48 @@ h1 {
   }
   .contact .email {
     display: inline-block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .opening-section,
+  .bio-kirkus {
+    width: 80%;
+    float: none;
+    clear: none;
+  }
+  .opening-section h1 {
+    padding-right: 0;
+  }
+  .opening-section .synopsis {
+    position: relative;
+  }
+  .opening-section .synopsis .award {
+    display: block;
+    position: absolute;
+    right: -20px;
+    bottom: -40px;
+    width: 200px;
+  }
+  .opening-section .synopsis .award img {
+    width: 100%;
+  }
+  .amazon-balloons {
+    width: 15%;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 4%;
+  }
+  .amazon-balloons .balloons {
+    position: relative;
+    margin-top: -45%;
+    width: 140%;
+    margin-left: -20%;
+  }
+  .amazon-balloons .quotes {
+    margin-top: 20%;
+  }
+  .amazon-balloons .award {
+    display: none;
   }
 }
