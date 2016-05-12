@@ -302,6 +302,9 @@ body {
     padding: 3em 4.5em;
     float: left;
   }
+  .bio-kirkus .author .ipad-break {
+    display: block;
+  }
   .bio-kirkus p {
     font-family: arial, sans-serif;
     font-size: 17px;
