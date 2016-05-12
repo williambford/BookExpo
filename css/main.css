@@ -38,7 +38,7 @@ body {
   letter-spacing: .5px;
   width: 90%;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .opening-section .book {
   width: 40%;
@@ -282,10 +282,10 @@ body {
     font-size: 0.9em;
     margin-top: 7%;
     border-radius: 50%;
-    padding: 2.5em 4em;
+    padding: 2.5em 5em;
   }
   .opening-section .synopsis p {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
   }
   .opening-section .synopsis .ipad-break {
@@ -297,7 +297,7 @@ body {
     margin-right: 5%;
     margin-top: -2%;
     border-radius: 50%;
-    padding: 3em 5em;
+    padding: 3em 4.5em;
     float: left;
   }
   .bio-kirkus p {
@@ -311,7 +311,7 @@ body {
     float: left;
   }
   .bio-kirkus p {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
   }
   .amazon-balloons {
@@ -332,9 +332,12 @@ body {
   .amazon-balloons .quotes {
     margin-top: 10%;
   }
-  .amazon-balloons p {
+  .amazon-balloons .quotes p {
     font-family: 'Oswald', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
+  }
+  .contact {
+    margin-top: 8%;
   }
   .contact h5 {
     font-size: 19px;
@@ -361,11 +364,11 @@ body {
     position: relative;
   }
   .opening-section .synopsis p {
-    font-family: 'oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16.5px;
   }
   .opening-section .synopsis .award {
-    display: block;
+    display: inline;
     position: absolute;
     right: -80px;
     bottom: -70px;
@@ -376,6 +379,9 @@ body {
   }
   .bio-kirkus .author {
     padding: 3em 5em;
+  }
+  .bio-kirkus .author p {
+    font-family: 'Lato', sans-serif;
   }
   .amazon-balloons {
     width: 15%;
@@ -394,6 +400,9 @@ body {
     margin-top: 30%;
     padding: 4px;
     padding-bottom: 15px;
+  }
+  .amazon-balloons .quotes p {
+    font-size: 15px;
   }
   .amazon-balloons .award {
     display: none;
