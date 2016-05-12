@@ -22,6 +22,7 @@ body {
   position: relative;
   max-width: 1400px;
   margin: 0 auto;
+  padding-bottom: 12%;
 }
 
 /* Section 1 begins:  header; book; book-title; synopsis */
@@ -240,20 +241,20 @@ body {
       }
     }
   }
+}
 
-  .award {
-    text-align: center;
-    margin-top: -2%;
+.award {
+  text-align: center;
 
 
-    img {
-      width: 80%;
-      max-width: 400px;
-      margin-top: 12%;
-      margin-bottom: -9%;
-    }
+  img {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 7%;
+    margin-bottom: -6%;
   }
 }
+
 
 /* Section 4 begins:  email bar */
 
@@ -264,8 +265,7 @@ body {
   text-align: center;
   display: inline;
   float: left;
-  margin-top: 12%;
-  padding: 0.5em;
+  padding: 0.75em;
 
   h5 {
     margin: 0;
@@ -316,6 +316,9 @@ body {
 
 
 @media screen and (min-width: 768px) {
+  .page-container {
+    padding-bottom: 8%;
+  }
 
   .opening-section {
 
@@ -419,7 +422,6 @@ body {
   }
 
   .contact {
-    margin-top: 8%;
 
     h5 {
       font-size: 19px;
@@ -464,30 +466,21 @@ body {
     .synopsis {
       position: relative;
 
-    p {
-      font-family: 'Lato', sans-serif;
-      font-size: 16.5px;
-    }
-
-    .award {
-      display: none;
-      position: absolute;
-      right: -80px;
-      bottom: -70px;
-      width: 200px;
-
-      img { width: 100%; }
+      p {
+        font-family: 'Lato', sans-serif;
+        font-size: 16.5px;
       }
     }
   }
 
   .bio-kirkus {
+
     .author {
       padding: 3em 4.5em;
 
-    p {
-      font-family: 'Lato', sans-serif;
-    }
+      p {
+        font-family: 'Lato', sans-serif;
+      }
     }
   }
 
@@ -514,14 +507,13 @@ body {
         font-size: 15px;
       }
     }
+  }
 
-    .award {
-      display: inline;
-      position: absolute;
-      float: left;
-
-
-      img { width: 100%; }
-      }
-    }
+  .award {
+    position: absolute;
+    left: 2em;
+    bottom: -3.5em;
+    z-index: 100;
+    width: 20%;
+  }
 }
