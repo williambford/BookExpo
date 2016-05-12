@@ -368,7 +368,7 @@ body {
     font-size: 16.5px;
   }
   .opening-section .synopsis .award {
-    display: inline;
+    display: none;
     position: absolute;
     right: -80px;
     bottom: -70px;
@@ -378,7 +378,7 @@ body {
     width: 100%;
   }
   .bio-kirkus .author {
-    padding: 3em 5em;
+    padding: 3em 4.5em;
   }
   .bio-kirkus .author p {
     font-family: 'Lato', sans-serif;
@@ -397,7 +397,7 @@ body {
     margin-left: -20%;
   }
   .amazon-balloons .quotes {
-    margin-top: 30%;
+    margin-top: 24%;
     padding: 4px;
     padding-bottom: 15px;
   }
@@ -405,6 +405,11 @@ body {
     font-size: 15px;
   }
   .amazon-balloons .award {
-    display: none;
+    display: inline;
+    position: absolute;
+    float: left;
+  }
+  .amazon-balloons .award img {
+    width: 100%;
   }
 }
