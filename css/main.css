@@ -288,7 +288,7 @@ body {
   }
   .opening-section .synopsis p {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 16.5px;
   }
   .opening-section .synopsis .ipad-break {
     display: block;
@@ -336,7 +336,7 @@ body {
   }
   .amazon-balloons .quotes p {
     font-family: 'Oswald', sans-serif;
-    font-size: 17px;
+    font-size: 17.5px;
   }
   .contact h5 {
     font-size: 19px;
@@ -396,7 +396,7 @@ body {
   .award {
     position: absolute;
     left: 2em;
-    bottom: -3.5em;
+    bottom: -3.25em;
     z-index: 100;
     width: 20%;
   }
