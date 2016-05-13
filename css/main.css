@@ -173,7 +173,7 @@ body {
 }
 .amazon-balloons .quotes {
   background-color: #2b4595;
-  margin-bottom: 20%;
+  margin-bottom: 19%;
 }
 .amazon-balloons .quotes h4 {
   font-size: 20px;
@@ -207,12 +207,13 @@ body {
 .amazon-balloons .quotes p.availability {
   text-align: center;
   font-style: italic;
-  padding-bottom: 6%;
+  padding-bottom: 7%;
 }
 .amazon-balloons .button-container {
   width: 100%;
   margin-top: -19%;
   margin-bottom: 8%;
+  text-align: center;
 }
 .amazon-balloons .button {
   border-radius: 24px;
@@ -225,13 +226,14 @@ body {
   font-size: 12px;
   font-weight: 500;
   transition: all 100ms ease-in-out;
+  whitespace: nowrap;
 }
 .amazon-balloons .button:hover {
   opacity: .9;
   transition: all 100ms ease;
 }
 .amazon-balloons .button.-border {
-  background: #2b80d5;
+  background: #2b73d8;
   border: 2px solid #FFFFFF;
   color: #FFFFFF;
   text-decoration: none;
@@ -373,15 +375,19 @@ body {
   }
   .amazon-balloons .quotes {
     margin-top: 10%;
+    margin-bottom: 19%;
   }
   .amazon-balloons .quotes p {
     font-family: 'Oswald', sans-serif;
     font-size: 17.5px;
   }
   .button-container {
-    width: 100%;
-    margin-top: -19%;
-    margin-bottom: -5%;
+    margin-bottom: 30%;
+  }
+  .award img {
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: -4%;
   }
   .contact h5 {
     font-size: 19px;
