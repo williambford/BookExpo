@@ -39,7 +39,7 @@ body {
   letter-spacing: .5px;
   width: 90%;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 2.5%;
 }
 .opening-section .book {
   width: 40%;
@@ -353,7 +353,7 @@ body {
     transition: all 100ms ease;
   }
   .amazon-balloons .button.-border {
-    background: #088783;
+    background: #009999;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     text-decoration: none;
