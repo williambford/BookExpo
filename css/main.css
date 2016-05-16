@@ -211,7 +211,7 @@ body {
 }
 .amazon-balloons .button-container {
   width: 120%;
-  margin-top: -19%;
+  margin-top: -13%;
   margin-bottom: 8%;
   text-align: center;
   margin-left: -26.5%;
@@ -445,6 +445,9 @@ body {
   }
   .amazon-balloons .quotes p {
     font-size: 15px;
+  }
+  .amazon-balloons .button-container {
+    margin-top: -8%;
   }
   .award {
     position: absolute;
