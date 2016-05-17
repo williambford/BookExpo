@@ -61,7 +61,7 @@ body {
 .opening-section .synopsis {
   margin: 0 auto;
   margin-top: 10%;
-  background-color: #7bebd8;
+  background-color: #67ebd8;
   width: 80%;
   min-width: 120px;
   max-width: 775px;
@@ -93,7 +93,7 @@ body {
 /* Section 2 begins:  bio; bill-photo; kirkus; recliner */
 .author {
   margin-top: 44%;
-  background-color: #fcb5bc;
+  background-color: #fcaeb4;
   margin: 0 auto;
   margin-top: 10%;
   width: 100%;
@@ -129,7 +129,7 @@ body {
 }
 .kirkus {
   margin-top: 5%;
-  background-color: #ebffd5;
+  background-color: #f5fbc6;
   min-width: 200px;
   max-width: 500px;
   margin: 0 auto;
