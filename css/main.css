@@ -279,11 +279,11 @@ body {
 }
 .contact h6 {
   margin: 0;
-  font-size: 14px;
+  font-size: 16.5px;
   color: #bde5fd;
   font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -293,7 +293,8 @@ body {
 }
 .contact .icon {
   width: 43px;
-  margin: 0 4px;
+  margin: 0 20px;
+  margin-right: -1px;
   vertical-align: middle;
 }
 /* FIRST BREAKPOINT */
