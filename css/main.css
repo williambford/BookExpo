@@ -161,7 +161,7 @@ body {
   bottom: 0;
   right: 0;
 }
-/* Section 3 begins:  balloons; amazon reviews */
+/* Section 3 begins:  balloons; amazon reviews; order button */
 .amazon-balloons {
   width: 100%;
   /* BEGIN BUTTON */
@@ -265,7 +265,7 @@ body {
   text-align: center;
   display: inline;
   float: left;
-  padding: 0.75em;
+  padding: .75em;
 }
 .contact h5 {
   margin: 0;
@@ -273,17 +273,17 @@ body {
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   display: inline-block;
   vertical-align: middle;
 }
 .contact h6 {
   margin: 0;
   font-size: 14px;
-  color: white;
+  color: #b1e5fd;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   display: inline-block;
   vertical-align: middle;
 }
