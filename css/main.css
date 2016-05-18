@@ -16,13 +16,14 @@ html {
   white-space: nowrap;
 }
 body {
-  background-image: url("../images/clouds2.jpg");
+  background-image: url("../images/clouds5.jpg");
   margin: 0;
 }
 .page-container {
   position: relative;
   max-width: 1400px;
   margin: 0 auto;
+  padding-bottom: 12%;
 }
 /* Section 1 begins:  header; book; book-title; synopsis */
 .opening-section {
@@ -38,7 +39,7 @@ body {
   letter-spacing: .5px;
   width: 90%;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2.5%;
 }
 .opening-section .book {
   width: 40%;
@@ -60,7 +61,7 @@ body {
 .opening-section .synopsis {
   margin: 0 auto;
   margin-top: 10%;
-  background-color: #7bebd8;
+  background-color: #67ebd8;
   width: 80%;
   min-width: 120px;
   max-width: 775px;
@@ -76,7 +77,7 @@ body {
   line-height: 122%;
 }
 .opening-section .synopsis p {
-  font-size: 0.9em;
+  font-size: .9em;
   font-family: arial, sans-serif;
   font-weight: 300;
   color: #404040;
@@ -92,7 +93,7 @@ body {
 /* Section 2 begins:  bio; bill-photo; kirkus; recliner */
 .author {
   margin-top: 44%;
-  background-color: #fcb5bc;
+  background-color: #fcaeb4;
   margin: 0 auto;
   margin-top: 10%;
   width: 100%;
@@ -110,8 +111,8 @@ body {
 }
 .author p {
   font-weight: 300;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-family: arial, sans-serif;
+  font-size: 14.5px;
   color: #404040;
 }
 .author .spacer {
@@ -128,7 +129,7 @@ body {
 }
 .kirkus {
   margin-top: 5%;
-  background-color: #ebffd5;
+  background-color: #f5fbc6;
   min-width: 200px;
   max-width: 500px;
   margin: 0 auto;
@@ -147,8 +148,8 @@ body {
 }
 .kirkus p {
   font-weight: 300;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
 }
 .kirkus .recliner {
   width: 50%;
@@ -159,24 +160,27 @@ body {
   bottom: 0;
   right: 0;
 }
-/* Section 3 begins:  ballons; amazon reviews */
+/* Section 3 begins:  balloons; amazon reviews */
 .amazon-balloons {
   width: 100%;
+  /* BEGIN BUTTON */
 }
 .amazon-balloons .balloons img {
-  width: 60%;
+  width: 50%;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 24%;
 }
 .amazon-balloons .quotes {
   background-color: #2b4595;
+  margin-bottom: 19%;
 }
 .amazon-balloons .quotes h4 {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   text-align: center;
   padding: 4%;
+  padding-top: 5%;
   line-height: 115%;
   margin-top: 11%;
   color: white;
@@ -186,7 +190,7 @@ body {
 }
 .amazon-balloons .quotes p {
   font-family: 'Oswald', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   color: white;
   padding: 1em;
@@ -203,14 +207,54 @@ body {
 .amazon-balloons .quotes p.availability {
   text-align: center;
   font-style: italic;
+  padding-bottom: 7%;
 }
-.amazon-balloons .award {
+.amazon-balloons .button-container {
+  width: 120%;
+  margin-top: -13%;
+  margin-bottom: 8%;
+  text-align: center;
+  margin-left: -26.5%;
+}
+.amazon-balloons .button {
+  border-radius: 24px;
+  padding: 12px 18px;
+  margin: 10px;
+  margin-left: 33%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.3;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+  whitespace: nowrap;
+}
+.amazon-balloons .button:hover {
+  opacity: .9;
+  transition: all 100ms ease;
+}
+.amazon-balloons .button.-border {
+  background: #2b6bd6;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.amazon-balloons .button.-border:hover {
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #2b4595;
+}
+/* END BUTTON */
+.award {
   text-align: center;
 }
-.amazon-balloons .award img {
-  width: 80%;
+.award img {
+  width: 40%;
   max-width: 400px;
-  margin-top: 12%;
+  margin-top: 9%;
+  margin-bottom: 2%;
+  margin-left: 4%;
 }
 /* Section 4 begins:  email bar */
 .contact {
@@ -220,12 +264,11 @@ body {
   text-align: center;
   display: inline;
   float: left;
-  margin-top: 12%;
-  padding: 0.5em;
+  padding: 0.75em;
 }
 .contact h5 {
   margin: 0;
-  font-size: 19px;
+  font-size: 15px;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -235,7 +278,7 @@ body {
 }
 .contact h6 {
   margin: 0;
-  font-size: 19px;
+  font-size: 14px;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -252,9 +295,13 @@ body {
   margin: 0 4px;
   vertical-align: middle;
 }
+/* FIRST BREAKPOINT */
 @media screen and (min-width: 768px) {
+  .page-container {
+    padding-bottom: 8%;
+  }
   .opening-section h1 {
-    font-size: 45px;
+    font-size: 40px;
     width: 95%;
     margin-left: 5%;
     margin-right: 0;
@@ -278,11 +325,11 @@ body {
     font-size: 0.9em;
     margin-top: 7%;
     border-radius: 50%;
-    padding: 2.5em 4em;
+    padding: 2.5em 5em;
   }
   .opening-section .synopsis p {
-    font-size: 1.1em;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 16.5px;
   }
   .opening-section .synopsis .ipad-break {
     display: block;
@@ -293,8 +340,15 @@ body {
     margin-right: 5%;
     margin-top: -2%;
     border-radius: 50%;
-    padding: 3em 4em;
+    padding: 3em 4.5em;
     float: left;
+  }
+  .bio-kirkus .author .ipad-break {
+    display: block;
+  }
+  .bio-kirkus p {
+    font-family: arial, sans-serif;
+    font-size: 17px;
   }
   .bio-kirkus .kirkus {
     width: 35%;
@@ -302,16 +356,20 @@ body {
     margin-top: 3%;
     float: left;
   }
+  .bio-kirkus p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
   .amazon-balloons {
     width: 66%;
     margin: 0 auto;
     margin-top: 10%;
   }
   .amazon-balloons .balloons {
-    margin-top: -10%;
+    margin-top: -12%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -1%;
   }
   .amazon-balloons .balloons img {
     width: 100%;
@@ -319,11 +377,31 @@ body {
   }
   .amazon-balloons .quotes {
     margin-top: 10%;
+    margin-bottom: 19%;
+  }
+  .amazon-balloons .quotes p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17.5px;
+  }
+  .button-container {
+    margin-bottom: 30%;
+  }
+  .award img {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  .contact h5 {
+    font-size: 19px;
+  }
+  .contact h6 {
+    font-size: 19px;
   }
   .contact .email {
     display: inline-block;
   }
 }
+/* SECOND BREAKPOINT */
 @media screen and (min-width: 1280px) {
   .opening-section,
   .bio-kirkus {
@@ -332,27 +410,28 @@ body {
     clear: none;
   }
   .opening-section h1 {
+    font-size: 45px;
     padding-right: 0;
   }
   .opening-section .synopsis {
     position: relative;
   }
-  .opening-section .synopsis .award {
-    display: block;
-    position: absolute;
-    right: -20px;
-    bottom: -40px;
-    width: 200px;
+  .opening-section .synopsis p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16.5px;
   }
-  .opening-section .synopsis .award img {
-    width: 100%;
+  .bio-kirkus .author {
+    padding: 3em 4.5em;
+  }
+  .bio-kirkus .author p {
+    font-family: 'Lato', sans-serif;
   }
   .amazon-balloons {
     width: 15%;
     margin-top: 0;
     position: absolute;
     top: 0;
-    right: 4%;
+    right: 3%;
   }
   .amazon-balloons .balloons {
     position: relative;
@@ -361,9 +440,21 @@ body {
     margin-left: -20%;
   }
   .amazon-balloons .quotes {
-    margin-top: 20%;
+    margin-top: 24%;
+    padding: 4px;
+    padding-bottom: 15px;
   }
-  .amazon-balloons .award {
-    display: none;
+  .amazon-balloons .quotes p {
+    font-size: 15px;
+  }
+  .amazon-balloons .button-container {
+    margin-top: -8%;
+  }
+  .award {
+    position: absolute;
+    left: -3.5em;
+    bottom: -2.75em;
+    z-index: 100;
+    width: 33%;
   }
 }
