@@ -265,7 +265,7 @@ body {
   text-align: center;
   display: inline;
   float: left;
-  padding: .75em;
+  padding: 1em;
 }
 .contact h5 {
   margin: 0;
@@ -280,7 +280,7 @@ body {
 .contact h6 {
   margin: 0;
   font-size: 14px;
-  color: #b1e5fd;
+  color: #bde5fd;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   letter-spacing: 2px;
@@ -390,13 +390,13 @@ body {
   .award img {
     width: 30%;
     margin-top: 5%;
-    margin-bottom: 0%;
+    margin-bottom: -5%;
   }
   .contact h5 {
-    font-size: 19px;
+    font-size: 20px;
   }
   .contact h6 {
-    font-size: 19px;
+    font-size: 20px;
   }
   .contact .email {
     display: inline-block;
@@ -454,7 +454,7 @@ body {
   .award {
     position: absolute;
     left: -3.5em;
-    bottom: -2.75em;
+    bottom: -2em;
     z-index: 100;
     width: 33%;
   }
