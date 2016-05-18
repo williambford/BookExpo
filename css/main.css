@@ -17,6 +17,7 @@ html {
 }
 body {
   background-image: url("../images/clouds5.jpg");
+  background-size: cover;
   margin: 0;
 }
 .page-container {
