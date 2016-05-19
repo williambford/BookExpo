@@ -24,6 +24,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding-bottom: 12%;
+  overflow: hidden;
 }
 
 /* Section 1 begins:  header; book; book-title; synopsis */
@@ -45,7 +46,7 @@ body {
   }
 
   .book {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 
     .book-cover,
@@ -526,6 +527,10 @@ body {
     h1 {
       font-size: 45px;
       padding-right: 0;
+
+      .desktop-break {
+        display: block;
+      }
     }
 
     .synopsis {
