@@ -25,6 +25,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding-bottom: 12%;
+  overflow: hidden;
 }
 /* Section 1 begins:  header; book; book-title; synopsis */
 .opening-section {
