@@ -415,6 +415,9 @@ body {
     font-size: 45px;
     padding-right: 0;
   }
+  .opening-section h1 .desktop-break {
+    display: block;
+  }
   .opening-section .synopsis {
     position: relative;
   }
