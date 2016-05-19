@@ -422,6 +422,7 @@ body {
   }
   .opening-section .synopsis {
     position: relative;
+    display: inline;
   }
   .opening-section .synopsis p {
     font-family: 'Lato', sans-serif;
