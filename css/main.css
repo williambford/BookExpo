@@ -87,8 +87,9 @@ body {
   line-height: 120%;
   margin-top: 20px;
 }
-.opening-section .synopsis .ipad-break {
-  display: inline;
+.opening-section .synopsis .ipad-break,
+.opening-section .synopsis .desktop-break {
+  display: none;
 }
 .opening-section .synopsis .award {
   display: none;
@@ -427,6 +428,12 @@ body {
   .opening-section .synopsis p {
     font-family: 'Lato', sans-serif;
     font-size: 16.5px;
+  }
+  .opening-section .synopsis .ipad-break {
+    display: none;
+  }
+  .opening-section .synopsis .desktop-break {
+    display: block;
   }
   .bio-kirkus .author {
     padding: 3em 4.5em;

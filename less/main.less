@@ -95,8 +95,9 @@ body {
       margin-top: 20px;
     }
 
-    .ipad-break {
-      display: inline;
+    .ipad-break,
+    .desktop-break {
+      display: none;
     }
 
     .award {
@@ -541,6 +542,14 @@ body {
       p {
         font-family: 'Lato', sans-serif;
         font-size: 16.5px;
+      }
+
+      .ipad-break {
+        display: none;
+      }
+
+      .desktop-break {
+        display: block; 
       }
     }
   }
